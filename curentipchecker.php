@@ -30,9 +30,9 @@ $subject = "Server IP CHANGE | ".date('Y-m-d H:i:s');
 //Define External IP Service it will need to return a plain Ip example "123.123.123.123"
 $IpService = 'http://ipecho.net/plain';
 
-/* DO NOT EDIT BELOW THIS POINT!
-<----  SCRIPT STARTS BELOW THIS POINT! ----->
-   DO NOT EDIT BELOW THIS POINT! /*
+// DO NOT EDIT BELOW THIS POINT!
+// <----  SCRIPT STARTS BELOW THIS POINT! ----->
+//   DO NOT EDIT BELOW THIS POINT!
 
 //Use External Service to get current IP
 $currentip = trim(file_get_contents($IpService));
