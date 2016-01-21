@@ -23,7 +23,7 @@ $password = "password"; // Password for email
 
 // Define Notification Email Settings
 $from = "My Server <server@domain.com>"; // Address emails will come from
-$to = "Bob IT Man <bob@blainassetmanagement.com>"; // Address for emails to go to
+$to = "Bob IT Man <bob@aol.com>"; // Address for emails to go to
 $to .= ", John Doe <john@aol.com.com>"; // additional emails here you may add extra lines if needed or delete them
 $subject = "Server IP CHANGE | ".date('Y-m-d H:i:s');
 
